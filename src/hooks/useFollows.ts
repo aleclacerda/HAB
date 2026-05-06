@@ -23,6 +23,7 @@ const mapToBuilder = (b: BuilderRow): Builder => ({
   onTimeDeliveryPct: b.on_time_pct ?? 0,
   logoUrl: b.logo_url,
   website: b.website,
+  reclameAquiScore: b.reclame_aqui_score ?? null,
 });
 
 interface UseFollowedBuildersResult {
